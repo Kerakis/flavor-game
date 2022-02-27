@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-react": "^7.29.1",
+    "prettier": "2.5.1"
+  },
+  "dependencies": {
+    "fuzzysort": "^1.2.1"
+  }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Flavor Game</title>
+    <script src="scripts/game.js" defer></script>
+  </head>
+
+  <body>
+    <div class="content">
+      <div id="scoreBox"></div>
+      <header>
+        <h1>MTG Flavor Game</h1>
+        <h2>Guess the card based on the flavor text!</h2>
+      </header>
+      <div class="infoContainer">
+        <span id="flavorText"></span>
+      </div>
+      <div class="getUserInput">
+        <label for="guessBox" id="guessBoxInput">What card has this flavor text?</label>
+        <input id="guessBox" type="text" required autofocus />
+      </div>
+      <div class="answers">
+        <div id="answerBox"></div>
+        <div id="imageContainer"><img id="cardImage" /></div>
+      </div>
+      <div class="buttonContainer">
+        <button type="submit" name="submitButton" id="submitButton">
+          Submit
+        </button>
+        <button type="button" name="skipButton" id="skip">Skip</button>
+      </div>
+    </div>
+    <footer>
+      <div class="signature">
+        Made with <span id="heart">&#10084;</span> by
+        <a
+          href="https://github.com/Kerakis"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Rob Upchurch</a
+        >
+        &copy; <span id="year"></span>
+      </div>
+    </footer>
+  </body>
+</html>
